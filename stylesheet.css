@@ -1,0 +1,36 @@
+/********************
+UNIVERSAL SETTINGS
+********************/
+
+* {
+  box-sizing: border-box;
+}
+
+
+/********************
+HEADER SECTION SETTINGS
+********************/
+
+header {
+  text-align: center;
+}
+
+header h1,
+header h6,
+header h4  {
+  margin: 0.3em 0;
+}
+
+
+/********************
+MAIN SECTION SETTINGS
+********************/
+
+main {
+  text-align: center;
+  background-color: #252830;
+}
+
+.about p {
+  color: #B5FFE1;
+}
