@@ -1,0 +1,81 @@
+/********
+UNIVERSAL SETTINGS
+*********/
+
+
+* {
+  box-sizing: border-box;
+}
+
+/********
+HEADER SECTION
+*********/
+
+header {
+  text-align: center;
+  background-color: rgb(117, 237, 194);
+}
+
+
+header h1 {
+  margin: 0;
+  padding: 0.5em 0;
+}
+
+header h4 {
+  margin: 0;
+  padding-bottom: 1em;
+}
+
+
+
+/********
+MAIN SECTION
+*********/
+
+main {
+  text-align: center;
+  padding: 1em 1.5em;
+}
+
+
+
+/* FORM SECTION */
+
+fieldset {
+  border: none;
+}
+
+label {
+  font-size: 0.8em;
+  padding-right: 0.5em;
+}
+
+input {
+  padding: 0.5em;
+  margin-right:1em;
+  margin-bottom: 1em;
+  width: 75%;
+}
+
+input:focus {
+  outline: none;
+}
+
+.btn-submit {
+  background-color: rgb(67, 240, 157);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 1em;
+}
+
+.btn-submit:hover {
+  background-color: rgb(19, 208, 117);
+  transition: background-color, 0.3s;
+}
+
+
+/********
+MEDIA QUERIES
+*********/
