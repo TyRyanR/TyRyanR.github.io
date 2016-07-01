@@ -53,16 +53,17 @@ fieldset {
 label {
   font-size: 0.8em;
   padding-right: 0.5em;
+  opacity: 0.3;
 }
 input {
   padding: 0.5em;
   margin-right:1em;
   margin-bottom: 1em;
-  width: 75%;
+  width: 95%;
   color: rgb(102, 102, 102);
 }
 input:focus {
-  outline: none;
+  outline: 1px solid rgb(153, 153, 153);
 }
 .btn-submit {
   background-color: rgb(67, 240, 157);
@@ -74,6 +75,10 @@ input:focus {
 .btn-submit:hover {
   background-color: rgb(19, 208, 117);
   transition: background-color, 0.3s;
+  cursor: pointer;
+}
+.btn-submit:focus {
+  outline: none;
 }
 
 /********
@@ -132,5 +137,6 @@ MEDIA QUERIES
   input {
     padding: 0.5em;
     font-size:1.8em;
+    width: 80%;
   }
 }
